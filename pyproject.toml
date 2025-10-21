@@ -1,0 +1,23 @@
+[project]
+name = "stock-screener"
+version = "0.1.0"
+description = "A Python-based stock screener application with Streamlit frontend for NSE stocks"
+readme = "README.md"
+authors = [
+    { name = "Priyanshu", email = "priyanshu.bahuguna@tavant.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.28.1",
+    "nsepython>=2.15",
+    "pandas>=2.0.3",
+    "numpy>=1.24.3"
+]
+
+[project.scripts]
+stock-screener = "stock_screener:main"
+stock-screener-app = "run_app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
