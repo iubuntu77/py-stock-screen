@@ -2,7 +2,7 @@
 Stock Screener Package
 """
 from stock_screener.screener import StockScreener
-from stock_screener.data_provider import NSEDataProvider
+from stock_screener.data_sources import NSEDataProvider, YFinanceDataProvider, DataManager
 from stock_screener.strategy import StrategyManager, Strategy
 
 __version__ = "0.1.0"

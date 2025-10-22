@@ -11,7 +11,10 @@ dependencies = [
     "streamlit>=1.28.1",
     "nsepython>=2.15",
     "pandas>=2.0.3",
-    "numpy>=1.24.3"
+    "numpy>=1.24.3",
+    "ta>=0.11.0",
+    "yfinance>=0.2.18",
+    "python-dotenv>=1.0.0",
 ]
 
 [project.scripts]
